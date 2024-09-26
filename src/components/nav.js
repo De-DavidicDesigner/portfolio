@@ -1,4 +1,5 @@
 import React from "react";
+import { Page } from "./About";
 
 import "./nav.css";
 
@@ -7,10 +8,10 @@ function Nav() {
         <nav className="nav-bar">
             <p className="logo">Dan</p>
             <div className="links">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
+                <a href="/home">Home</a>
+                <a href="/about">About</a>
+                <a href="/project">Projects</a>
+                <a href="/contact">Contact</a>
             </div>
         </nav>
     )

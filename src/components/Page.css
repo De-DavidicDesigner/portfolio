@@ -1,0 +1,13 @@
+.main {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.main img  {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}

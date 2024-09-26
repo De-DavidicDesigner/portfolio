@@ -1,11 +1,12 @@
-import React from "react";
+import React from "react"
+
+import "./Page.css";
+import self from "./img/Daniel2b.png";
 
 function Page() {
     return (
         <div className="main">
-            <div className="imgpage">
-                <img src={me3} alt="dan" />
-            </div>
+            <img src={self} alt="dan" />
             <div className="info">
                 <h1>About Me</h1>
                 <h3>Frontend Developer</h3>
